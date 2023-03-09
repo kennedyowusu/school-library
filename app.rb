@@ -100,4 +100,46 @@ class App
   def create_book
     print 'Title: '
     title = gets.chomp
-    print 'Author
+    print 'Author: '
+    author = gets.chomp
+    add_book(title, author)
+    print_message("\nBook created successfully.")
+  end
+
+  def add_book(title, author)
+    new_book = Book.new(title, author)
+    books << new_book
+  end
+
+  def create_rental
+    list_people
+    print 'Choose a person: '
+    person_id = gets.chomp.to_i
+    list_books
+    print 'Choose a book: '
+    book_id = gets.chomp.to_i
+    print 'Rental date [yyyy-mm-dd]: '
+    rental_date = gets.chomp
+    add_rental(person_id, book_id, rental_date)
+    print_message("\nRental created successfully.")
+  end
+
+  def add_rental(person_id, book_id, rental_date)
+    person = persons[person_id]
+    book = books[book_id]
+    new_rental = Rental.new(person, book, rental_date)
+    rentals << new_rental
+  end
+
+  def list_rentals_for_person
+    list_people
+    print 'Choose a person: '
+    person_id = gets.chomp.to_i
+    puts "\nRentals for #{persons[person_id].name}:"
+    rental_list_by_id(person_id)
+  end
+
+  def print_message(message)
+    puts message
+  end
+end
