@@ -77,8 +77,6 @@ Clone this [repository](https://github.com/kennedyowusu/school-library) to your 
 - [ ] **Add modules for this project**
 - [ ] **Add UI**
 - [ ] **Add tests**
-- [ ] **Add styling**
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
