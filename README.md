@@ -40,7 +40,7 @@ In this project I learn about how to implement classes and objects in Ruby and e
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](#)- not available.
+- not available.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
