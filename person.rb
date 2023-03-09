@@ -1,7 +1,7 @@
 require './nameable'
 require './base_decorator'
-require './capitalize_decorator'
-require './trimmer_decorator'
+require './capitalize'
+require './trimmer'
 
 class Person < Nameable
   attr_reader :id, :name, :age, :parent_permission
