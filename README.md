@@ -7,7 +7,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 OPP School Library ](#-opp-school-library-)
+- [📖 School Library ](#-school-library-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -15,6 +15,7 @@
   - [💻 Getting Started with database ](#-getting-started-with-database-)
     - [Setup](#setup)
   - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
@@ -70,6 +71,13 @@ Clone this [repository](https://github.com/kennedyowusu/school-library) to your 
 - LinkedIn: [@kennedyowusu](https://www.linkedin.com/in/kennedyowusu/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Add modules for this project**
+- [ ] **Add UI**
+- [ ] **Add tests**
+- [ ] **Add styling**
 
 ## 🤝 Contributing <a name="contributing"></a>
 
