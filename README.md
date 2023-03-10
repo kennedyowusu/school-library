@@ -40,7 +40,7 @@ In this project I learn about how to implement classes and objects in Ruby and e
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](#)- not available.
+- not available.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -77,8 +77,6 @@ Clone this [repository](https://github.com/kennedyowusu/school-library) to your 
 - [ ] **Add modules for this project**
 - [ ] **Add UI**
 - [ ] **Add tests**
-- [ ] **Add styling**
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
