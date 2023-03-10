@@ -1,12 +1,12 @@
-require './nameable'
+require 'forwardable'
 
-class Decorator < Nameable
+class Decorator
+  extend Forwardable
+  def_delegators :@nameable, :correct_name
+
   def initialize(nameable)
-    super()
     @nameable = nameable
   end
 
-  def correct_name
-    @nameable.correct_name
-  end
+  attr_reader :nameable
 end
