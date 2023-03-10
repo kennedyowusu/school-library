@@ -15,7 +15,7 @@ class App
   # list methods
   def list_people
     if persons.empty?
-      puts "\nThere are no people"
+      puts "\nThere are no people \n"
     else
       persons.each_with_index do |person, index|
         puts "\n [#{index}] [#{person.type}] Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
@@ -59,7 +59,7 @@ class App
     when 2
       create_teacher
     else
-      puts '\nSelect a valid option'
+      puts '\nSelect a valid option \n'
     end
   end
 
@@ -73,7 +73,7 @@ class App
     print 'Classroom: '
     classroom = gets.chomp
     add_student(age, classroom, name, permission)
-    print_message("\nStudent created successfully.")
+    print_message("\nStudent created successfully. \n")
   end
 
   def add_student(age, classroom, name, permission)
@@ -89,7 +89,7 @@ class App
     print 'Specialization: '
     specialization = gets.chomp
     add_teacher(age, specialization, name)
-    print_message("\nTeacher created successfully.")
+    print_message("\nTeacher created successfully. \n")
   end
 
   def add_teacher(age, specialization, name)
@@ -103,7 +103,7 @@ class App
     print 'Author: '
     author = gets.chomp
     add_book(title, author)
-    print_message("\nBook created successfully.")
+    print_message("\nBook created successfully. \n")
   end
 
   def add_book(title, author)
@@ -121,7 +121,7 @@ class App
     print 'Rental date [yyyy-mm-dd]: '
     rental_date = gets.chomp
     add_rental(person_id, book_id, rental_date)
-    print_message("\nRental created successfully.")
+    print_message("\nRental created successfully. \n")
   end
 
   def add_rental(person_id, book_id, rental_date)

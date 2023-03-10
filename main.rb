@@ -1,7 +1,7 @@
 require './app'
 
 def display_options
-  puts "\nPlease choose an option by Entering a Number: "
+  puts "\nPlease choose an option by Entering a Number: \n"
   puts [
     '',
     ' [1] - List all books',
@@ -45,7 +45,7 @@ def handle_exit
 end
 
 def handle_invalid_option
-  puts 'Invalid option!'
+  puts 'Sorry Invalid Option Selected'
 end
 
 def handle_option(app, option)
@@ -63,7 +63,7 @@ end
 
 def main
   app = App.new
-  puts "\nWelcome to the School Library App!"
+  puts "\nWelcome to the School Library App! \n"
 
   loop do
     display_options
