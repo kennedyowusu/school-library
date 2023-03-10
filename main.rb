@@ -1,7 +1,7 @@
 require './app'
 
 def display_options
-  puts "\nPlease choose an option:"
+  puts "\nPlease choose an option by Entering a Number: "
   puts [
     '',
     ' [1] - List all books',
