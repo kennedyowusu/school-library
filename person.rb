@@ -1,4 +1,5 @@
 require './trimmer'
+require './nameable'
 
 class Person < Nameable
   attr_reader :id, :rentals
